@@ -22,11 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://www.radio.org.ph/')
+WebUI.navigateToUrl('https://www.google.com/search?source=hp&ei=gyfYWqz_LYv_8gXtvKaIAg&q=Git+Repositories+configuration+list.&oq=Git+Repositories+configuration+list.&gs_l=psy-ab.3..33i22i29i30k1.18559.18559.0.18923.3.1.0.0.0.0.133.133.0j1.1.0....0...1c.1.64.psy-ab..2.1.133.0...0.6PB3fmLv7bE')
 
-WebUI.click(findTestObject('Page_Online radio stations from Phi/a'))
-
-WebUI.click(findTestObject('Page_Online radio stations from Phi/a_1'))
+WebUI.verifyTextPresent('Git - Git Configuration', false)
 
 WebUI.closeBrowser()
 
