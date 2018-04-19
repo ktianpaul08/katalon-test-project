@@ -18,4 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://www.radio.org.ph/')
+
+WebUI.click(findTestObject('Page_Online radio stations from Phi/a'))
+
+WebUI.click(findTestObject('Page_Online radio stations from Phi/a_1'))
+
+WebUI.closeBrowser()
 
